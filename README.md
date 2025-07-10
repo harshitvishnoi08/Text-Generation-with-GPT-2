@@ -56,10 +56,10 @@ The primary workflow is demonstrated in the `final.ipynb` notebook.
 
 The model was evaluated on the raw "emma.txt" dataset.
 
-* **Evaluation Loss:** `3.6500`
-* **Perplexity:** `38.48`
+* **Evaluation Loss:** `2.6336`
+* **Perplexity:** `13.92`
 
-A perplexity of `38.48` indicates that the model has learned significant patterns from the novel, performing substantially better than a random language model. The evaluation on the raw text (including boilerplate) contributes to this specific score.
+A perplexity of `13.92` indicates that the model has learned significant patterns from the novel, performing substantially better than a random language model. The evaluation on the raw text (including boilerplate) contributes to this specific score.
 
 ### Qualitative Evaluation (Text Generation)
 
@@ -84,12 +84,10 @@ The trained GPT-2 model files are available for download from Google Drive due t
 
 ## Files in this Repository
 
-* `final.ipynb`: The main Jupyter Notebook with all project code and execution steps.
-* `Report_Emma_GPT2_FineTuning.pdf`: The detailed project report (replace with `.md` if you submit Markdown).
+* `final_notebook.ipynb`: The main Jupyter Notebook with all project code and execution steps.
+* `Final_report.pdf`: The detailed project report (replace with `.md` if you submit Markdown).
 * `emma.txt`: The raw "Emma" dataset used.
-* `emma_cleaned.txt`: The cleaned version of the "Emma" dataset used for training.
 * `experiments.ipynb`: An auxiliary notebook showing additional experimental outputs and development steps.
-* `.gitignore`: Specifies files and directories to be ignored by Git (e.g., large model checkpoints).
 
 ## Future Work
 
