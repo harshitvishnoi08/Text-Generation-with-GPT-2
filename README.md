@@ -43,7 +43,7 @@ To run this project, you can use Google Colab (recommended for GPU access) or a 
 
 The primary workflow is demonstrated in the `final.ipynb` notebook.
 
-1.  **Open `final.ipynb`:** Launch the notebook in Google Colab or your local Jupyter environment.
+1.  **Open `final_notebook.ipynb`:** Launch the notebook in Google Colab or your local Jupyter environment.
 2.  **Run All Cells:** Execute all cells sequentially from top to bottom.
     * The notebook will handle data loading, cleaning, tokenizer initialization, model training, and evaluation.
     * It will save the fine-tuned model to `./fine_tuned_gpt2_alice/` locally within the Colab environment.
@@ -72,14 +72,11 @@ The fine-tuned model demonstrated a strong ability to generate coherent and cont
 
 This sample showcases the model's capacity to produce grammatically correct sentences, maintain narrative flow, and incorporate elements (characters, locations) consistent with the novel.
 
-For a more detailed analysis of the evaluation, including insights into model behavior and potential challenges, please refer to the full report:
-[**Link to your Report PDF/Markdown in the same repo, e.g., `Report_Emma_GPT2_FineTuning.pdf`**]
-
 ## Trained Model
 
 The trained GPT-2 model files are available for download from Google Drive due to their size. You can access them here:
 
-[**Your Google Drive Link to the Model Folder Here**]
+[**https://drive.google.com/drive/folders/1liG6X-q_RYm1db0cqcTPEGw_4znKVptx?usp=sharing**]
 *(Please ensure the link permissions are set to "Anyone with the link can view.")*
 
 ## Files in this Repository
